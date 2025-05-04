@@ -11,37 +11,36 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #6d6d6d;
-  --hover-color: #d1d1d1;
-  --success-color: #43b581;
-  --danger-color: #770d0d;
+  --main-color: #6D6D6D;
+  --hover-color: #D1D1D1;
+  --success-color: #43B581;
+  --danger-color: #770D0D;
   --url-color: var(--main-color);
-  --undefined: 0;
   --background-image: url('https://i.ibb.co/FWNbcnR/xbanner.png');
   --background-shading: 50%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 100%;
+  --background-brightness: 250%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://i.imgur.com/asaRHRP.png');
+  --user-popout-image: url('https://i.ibb.co/yc2pmMd3/shapessquare.png');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
-  --user-popout-brightness: 185%;
+  --user-popout-brightness: 100%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://i.imgur.com/5YBtiB8.png');
+  --user-modal-image: url('https://i.ibb.co/yc2pmMd3/shapessquare.png');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -56,7 +55,7 @@
   --home-position: center;
   --home-size: 40px;
   --channel-unread: #FFFFFF;
-  --channel-color: rgba(255, 255, 255, 0.575);
+  --channel-color: rgb(255,255,255,0.575);
   --muted-color: rgba(255,255,255,0.1);
   --online-color: #43b581;
   --idle-color: #faa61a;
@@ -67,7 +66,7 @@
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
-  --backdrop-overlay: rgba(65, 65, 65, 0.8);
+  --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
   --backdrop-size: var(--background-size);
@@ -86,4 +85,3 @@
 }
 
 /* Any custom CSS below here */
-
