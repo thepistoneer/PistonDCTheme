@@ -1,14 +1,14 @@
 /**
- * @name PistonDCTheme
+ * @name PistonDCThemeOld
  * @author ThePistoneer
  * @version 6.3.0
- * @description Custom theme made using ClearVision as a base
+ * @description Custom theme made using ClearVision as a base (older version for old ui)
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://github.com/thepistoneer
  * @BDEditor ThePistoneer
 */
 
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
 
 :root {
   --main-color: #6D6D6D;
@@ -16,6 +16,7 @@
   --success-color: #43B581;
   --danger-color: #770D0D;
   --url-color: var(--main-color);
+
   --background-image: url('https://i.ibb.co/FWNbcnR/xbanner.png');
   --background-shading: 50%;
   --background-position: center;
@@ -29,6 +30,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
+
   --user-popout-image: url('https://i.ibb.co/yc2pmMd3/shapessquare.png');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -40,6 +42,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
+
   --user-modal-image: url('https://i.ibb.co/yc2pmMd3/shapessquare.png');
   --user-modal-position: center;
   --user-modal-size: cover;
@@ -51,6 +54,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
+
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
