@@ -1,0 +1,52 @@
+/**
+ * @name PistonDCTheme
+ * @author ThePistoneer
+ * @version 6.3.0
+ * @description Custom theme made using ClearVision as a base
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://github.com/thepistoneer
+ * @BDEditor ThePistoneer
+*/
+
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+/* SETTINGS */
+:root {
+  /* ACCENT COLORS */
+  --main-color: #6D6D6D;
+  --hover-color: #D1D1D1;
+  --success-color: #43b581;
+  --danger-color: #770D0D;
+
+  /* STATUS COLORS */
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+
+  /* APP BACKGROUND */
+  --background-shading-percent: 0%;
+  --background-image: url(https://i.ibb.co/0RWkc5SD/xbannerbrighter.png);
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: url(https://i.ibb.co/W4Fw8yzp/shapessquarebrighter.png);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
+
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--user-popout-image);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+
+  /* FONTS */
+  --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
+}
