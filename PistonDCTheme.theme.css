@@ -30,7 +30,7 @@
 
   /* APP BACKGROUND */
   --background-shading-percent: 0%;
-  --background-image: url(https://i.ibb.co/0RWkc5SD/xbannerbrighter.png);
+  --background-image: url(https://i.ibb.co/0pnc0Lsn/XBGPortrait.png);
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
 
