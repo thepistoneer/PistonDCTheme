@@ -30,12 +30,12 @@
 
   /* APP BACKGROUND */
   --background-shading-percent: 0%;
-  --background-image: url(https://i.ibb.co/0pnc0Lsn/XBGPortrait.png);
+  --background-image: url(https://raw.githubusercontent.com/thepistoneer/PistonDCTheme/refs/heads/main/XBGPortrait.png);
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: url(https://i.ibb.co/W4Fw8yzp/shapessquarebrighter.png);
+  --user-popout-image: url(https://github.com/thepistoneer/PistonDCTheme/blob/main/shapesSquare.png?raw=true);
   --user-popout-attachment: var(--background-attachment);
   --user-popout-filter: var(--background-filter);
 
